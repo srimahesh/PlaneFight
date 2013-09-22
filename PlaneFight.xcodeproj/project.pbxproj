@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D21C8C9817EFABC20017D719 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21C8C9717EFABC20017D719 /* Foundation.framework */; };
+		D21C8C9A17EFABC20017D719 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21C8C9917EFABC20017D719 /* CoreGraphics.framework */; };
+		D21C8C9C17EFABC20017D719 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21C8C9B17EFABC20017D719 /* UIKit.framework */; };
+		D21C8C9E17EFABC20017D719 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21C8C9D17EFABC20017D719 /* SpriteKit.framework */; };
+		D21C8CA417EFABC20017D719 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D21C8CA217EFABC20017D719 /* InfoPlist.strings */; };
+		D21C8CA617EFABC20017D719 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D21C8CA517EFABC20017D719 /* main.m */; };
+		D21C8CAA17EFABC20017D719 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D21C8CA917EFABC20017D719 /* AppDelegate.m */; };
+		D21C8CAD17EFABC20017D719 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D21C8CAB17EFABC20017D719 /* Main.storyboard */; };
+		D21C8CB017EFABC20017D719 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D21C8CAF17EFABC20017D719 /* ViewController.m */; };
+		D21C8CB317EFABC20017D719 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D21C8CB217EFABC20017D719 /* MyScene.m */; };
+		D21C8CB517EFABC20017D719 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = D21C8CB417EFABC20017D719 /* Spaceship.png */; };
+		D21C8CB717EFABC20017D719 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D21C8CB617EFABC20017D719 /* Images.xcassets */; };
+		D21C8CBE17EFABC20017D719 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21C8CBD17EFABC20017D719 /* XCTest.framework */; };
+		D21C8CBF17EFABC20017D719 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21C8C9717EFABC20017D719 /* Foundation.framework */; };
+		D21C8CC017EFABC20017D719 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21C8C9B17EFABC20017D719 /* UIKit.framework */; };
+		D21C8CC817EFABC20017D719 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D21C8CC617EFABC20017D719 /* InfoPlist.strings */; };
+		D21C8CCA17EFABC20017D719 /* PlaneFightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D21C8CC917EFABC20017D719 /* PlaneFightTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D21C8CC117EFABC20017D719 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D21C8C8C17EFABC20017D719 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D21C8C9317EFABC20017D719;
+			remoteInfo = PlaneFight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D21C8C9417EFABC20017D719 /* PlaneFight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaneFight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21C8C9717EFABC20017D719 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D21C8C9917EFABC20017D719 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D21C8C9B17EFABC20017D719 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D21C8C9D17EFABC20017D719 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		D21C8CA117EFABC20017D719 /* PlaneFight-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlaneFight-Info.plist"; sourceTree = "<group>"; };
+		D21C8CA317EFABC20017D719 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D21C8CA517EFABC20017D719 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D21C8CA717EFABC20017D719 /* PlaneFight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlaneFight-Prefix.pch"; sourceTree = "<group>"; };
+		D21C8CA817EFABC20017D719 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D21C8CA917EFABC20017D719 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D21C8CAC17EFABC20017D719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D21C8CAE17EFABC20017D719 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D21C8CAF17EFABC20017D719 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D21C8CB117EFABC20017D719 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		D21C8CB217EFABC20017D719 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		D21C8CB417EFABC20017D719 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		D21C8CB617EFABC20017D719 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D21C8CBC17EFABC20017D719 /* PlaneFightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaneFightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21C8CBD17EFABC20017D719 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D21C8CC517EFABC20017D719 /* PlaneFightTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlaneFightTests-Info.plist"; sourceTree = "<group>"; };
+		D21C8CC717EFABC20017D719 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D21C8CC917EFABC20017D719 /* PlaneFightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaneFightTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D21C8C9117EFABC20017D719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21C8C9A17EFABC20017D719 /* CoreGraphics.framework in Frameworks */,
+				D21C8C9C17EFABC20017D719 /* UIKit.framework in Frameworks */,
+				D21C8C9E17EFABC20017D719 /* SpriteKit.framework in Frameworks */,
+				D21C8C9817EFABC20017D719 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21C8CB917EFABC20017D719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21C8CBE17EFABC20017D719 /* XCTest.framework in Frameworks */,
+				D21C8CC017EFABC20017D719 /* UIKit.framework in Frameworks */,
+				D21C8CBF17EFABC20017D719 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D21C8C8B17EFABC20017D719 = {
+			isa = PBXGroup;
+			children = (
+				D21C8C9F17EFABC20017D719 /* PlaneFight */,
+				D21C8CC317EFABC20017D719 /* PlaneFightTests */,
+				D21C8C9617EFABC20017D719 /* Frameworks */,
+				D21C8C9517EFABC20017D719 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D21C8C9517EFABC20017D719 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D21C8C9417EFABC20017D719 /* PlaneFight.app */,
+				D21C8CBC17EFABC20017D719 /* PlaneFightTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D21C8C9617EFABC20017D719 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D21C8C9717EFABC20017D719 /* Foundation.framework */,
+				D21C8C9917EFABC20017D719 /* CoreGraphics.framework */,
+				D21C8C9B17EFABC20017D719 /* UIKit.framework */,
+				D21C8C9D17EFABC20017D719 /* SpriteKit.framework */,
+				D21C8CBD17EFABC20017D719 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D21C8C9F17EFABC20017D719 /* PlaneFight */ = {
+			isa = PBXGroup;
+			children = (
+				D21C8CA817EFABC20017D719 /* AppDelegate.h */,
+				D21C8CA917EFABC20017D719 /* AppDelegate.m */,
+				D21C8CAB17EFABC20017D719 /* Main.storyboard */,
+				D21C8CAE17EFABC20017D719 /* ViewController.h */,
+				D21C8CAF17EFABC20017D719 /* ViewController.m */,
+				D21C8CB117EFABC20017D719 /* MyScene.h */,
+				D21C8CB217EFABC20017D719 /* MyScene.m */,
+				D21C8CB417EFABC20017D719 /* Spaceship.png */,
+				D21C8CB617EFABC20017D719 /* Images.xcassets */,
+				D21C8CA017EFABC20017D719 /* Supporting Files */,
+			);
+			path = PlaneFight;
+			sourceTree = "<group>";
+		};
+		D21C8CA017EFABC20017D719 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D21C8CA117EFABC20017D719 /* PlaneFight-Info.plist */,
+				D21C8CA217EFABC20017D719 /* InfoPlist.strings */,
+				D21C8CA517EFABC20017D719 /* main.m */,
+				D21C8CA717EFABC20017D719 /* PlaneFight-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D21C8CC317EFABC20017D719 /* PlaneFightTests */ = {
+			isa = PBXGroup;
+			children = (
+				D21C8CC917EFABC20017D719 /* PlaneFightTests.m */,
+				D21C8CC417EFABC20017D719 /* Supporting Files */,
+			);
+			path = PlaneFightTests;
+			sourceTree = "<group>";
+		};
+		D21C8CC417EFABC20017D719 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D21C8CC517EFABC20017D719 /* PlaneFightTests-Info.plist */,
+				D21C8CC617EFABC20017D719 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D21C8C9317EFABC20017D719 /* PlaneFight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D21C8CCD17EFABC20017D719 /* Build configuration list for PBXNativeTarget "PlaneFight" */;
+			buildPhases = (
+				D21C8C9017EFABC20017D719 /* Sources */,
+				D21C8C9117EFABC20017D719 /* Frameworks */,
+				D21C8C9217EFABC20017D719 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlaneFight;
+			productName = PlaneFight;
+			productReference = D21C8C9417EFABC20017D719 /* PlaneFight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D21C8CBB17EFABC20017D719 /* PlaneFightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D21C8CD017EFABC20017D719 /* Build configuration list for PBXNativeTarget "PlaneFightTests" */;
+			buildPhases = (
+				D21C8CB817EFABC20017D719 /* Sources */,
+				D21C8CB917EFABC20017D719 /* Frameworks */,
+				D21C8CBA17EFABC20017D719 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D21C8CC217EFABC20017D719 /* PBXTargetDependency */,
+			);
+			name = PlaneFightTests;
+			productName = PlaneFightTests;
+			productReference = D21C8CBC17EFABC20017D719 /* PlaneFightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D21C8C8C17EFABC20017D719 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "V SRI";
+				TargetAttributes = {
+					D21C8CBB17EFABC20017D719 = {
+						TestTargetID = D21C8C9317EFABC20017D719;
+					};
+				};
+			};
+			buildConfigurationList = D21C8C8F17EFABC20017D719 /* Build configuration list for PBXProject "PlaneFight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D21C8C8B17EFABC20017D719;
+			productRefGroup = D21C8C9517EFABC20017D719 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D21C8C9317EFABC20017D719 /* PlaneFight */,
+				D21C8CBB17EFABC20017D719 /* PlaneFightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D21C8C9217EFABC20017D719 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21C8CA417EFABC20017D719 /* InfoPlist.strings in Resources */,
+				D21C8CB717EFABC20017D719 /* Images.xcassets in Resources */,
+				D21C8CB517EFABC20017D719 /* Spaceship.png in Resources */,
+				D21C8CAD17EFABC20017D719 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21C8CBA17EFABC20017D719 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21C8CC817EFABC20017D719 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D21C8C9017EFABC20017D719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21C8CB317EFABC20017D719 /* MyScene.m in Sources */,
+				D21C8CB017EFABC20017D719 /* ViewController.m in Sources */,
+				D21C8CAA17EFABC20017D719 /* AppDelegate.m in Sources */,
+				D21C8CA617EFABC20017D719 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21C8CB817EFABC20017D719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21C8CCA17EFABC20017D719 /* PlaneFightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D21C8CC217EFABC20017D719 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D21C8C9317EFABC20017D719 /* PlaneFight */;
+			targetProxy = D21C8CC117EFABC20017D719 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D21C8CA217EFABC20017D719 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D21C8CA317EFABC20017D719 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D21C8CAB17EFABC20017D719 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D21C8CAC17EFABC20017D719 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D21C8CC617EFABC20017D719 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D21C8CC717EFABC20017D719 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D21C8CCB17EFABC20017D719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D21C8CCC17EFABC20017D719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D21C8CCE17EFABC20017D719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlaneFight/PlaneFight-Prefix.pch";
+				INFOPLIST_FILE = "PlaneFight/PlaneFight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D21C8CCF17EFABC20017D719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlaneFight/PlaneFight-Prefix.pch";
+				INFOPLIST_FILE = "PlaneFight/PlaneFight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D21C8CD117EFABC20017D719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PlaneFight.app/PlaneFight";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlaneFight/PlaneFight-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PlaneFightTests/PlaneFightTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D21C8CD217EFABC20017D719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PlaneFight.app/PlaneFight";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlaneFight/PlaneFight-Prefix.pch";
+				INFOPLIST_FILE = "PlaneFightTests/PlaneFightTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D21C8C8F17EFABC20017D719 /* Build configuration list for PBXProject "PlaneFight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21C8CCB17EFABC20017D719 /* Debug */,
+				D21C8CCC17EFABC20017D719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D21C8CCD17EFABC20017D719 /* Build configuration list for PBXNativeTarget "PlaneFight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21C8CCE17EFABC20017D719 /* Debug */,
+				D21C8CCF17EFABC20017D719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D21C8CD017EFABC20017D719 /* Build configuration list for PBXNativeTarget "PlaneFightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21C8CD117EFABC20017D719 /* Debug */,
+				D21C8CD217EFABC20017D719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D21C8C8C17EFABC20017D719 /* Project object */;
+}

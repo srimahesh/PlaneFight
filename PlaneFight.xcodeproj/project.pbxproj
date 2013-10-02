@@ -24,6 +24,15 @@
 		D21C8CC017EFABC20017D719 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21C8C9B17EFABC20017D719 /* UIKit.framework */; };
 		D21C8CC817EFABC20017D719 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D21C8CC617EFABC20017D719 /* InfoPlist.strings */; };
 		D21C8CCA17EFABC20017D719 /* PlaneFightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D21C8CC917EFABC20017D719 /* PlaneFightTests.m */; };
+		D21C8D0F17EFAD290017D719 /* airPlanesBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = D21C8CF517EFAD290017D719 /* airPlanesBackground.png */; };
+		D21C8D1017EFAD290017D719 /* PLANE 8 L.png in Resources */ = {isa = PBXBuildFile; fileRef = D21C8CF617EFAD290017D719 /* PLANE 8 L.png */; };
+		D21C8D1117EFAD290017D719 /* PLANE 8 N.png in Resources */ = {isa = PBXBuildFile; fileRef = D21C8CF717EFAD290017D719 /* PLANE 8 N.png */; };
+		D21C8D1217EFAD290017D719 /* PLANE 8 R.png in Resources */ = {isa = PBXBuildFile; fileRef = D21C8CF817EFAD290017D719 /* PLANE 8 R.png */; };
+		D21C8D1317EFAD290017D719 /* PLANE 8 SHADOW.png in Resources */ = {isa = PBXBuildFile; fileRef = D21C8CF917EFAD290017D719 /* PLANE 8 SHADOW.png */; };
+		D21C8D1417EFAD290017D719 /* PLANE PROPELLER 1.png in Resources */ = {isa = PBXBuildFile; fileRef = D21C8CFA17EFAD290017D719 /* PLANE PROPELLER 1.png */; };
+		D21C8D1517EFAD290017D719 /* PLANE PROPELLER 2.png in Resources */ = {isa = PBXBuildFile; fileRef = D21C8CFB17EFAD290017D719 /* PLANE PROPELLER 2.png */; };
+		D21C8D1E17EFD0650017D719 /* trail.sks in Resources */ = {isa = PBXBuildFile; fileRef = D21C8D1C17EFD0650017D719 /* trail.sks */; };
+		D21C8D1F17EFD0650017D719 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = D21C8D1D17EFD0650017D719 /* spark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +69,15 @@
 		D21C8CC517EFABC20017D719 /* PlaneFightTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlaneFightTests-Info.plist"; sourceTree = "<group>"; };
 		D21C8CC717EFABC20017D719 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D21C8CC917EFABC20017D719 /* PlaneFightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaneFightTests.m; sourceTree = "<group>"; };
+		D21C8CF517EFAD290017D719 /* airPlanesBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = airPlanesBackground.png; sourceTree = "<group>"; };
+		D21C8CF617EFAD290017D719 /* PLANE 8 L.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PLANE 8 L.png"; sourceTree = "<group>"; };
+		D21C8CF717EFAD290017D719 /* PLANE 8 N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PLANE 8 N.png"; sourceTree = "<group>"; };
+		D21C8CF817EFAD290017D719 /* PLANE 8 R.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PLANE 8 R.png"; sourceTree = "<group>"; };
+		D21C8CF917EFAD290017D719 /* PLANE 8 SHADOW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PLANE 8 SHADOW.png"; sourceTree = "<group>"; };
+		D21C8CFA17EFAD290017D719 /* PLANE PROPELLER 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PLANE PROPELLER 1.png"; sourceTree = "<group>"; };
+		D21C8CFB17EFAD290017D719 /* PLANE PROPELLER 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PLANE PROPELLER 2.png"; sourceTree = "<group>"; };
+		D21C8D1C17EFD0650017D719 /* trail.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = trail.sks; sourceTree = "<group>"; };
+		D21C8D1D17EFD0650017D719 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +146,8 @@
 				D21C8CAF17EFABC20017D719 /* ViewController.m */,
 				D21C8CB117EFABC20017D719 /* MyScene.h */,
 				D21C8CB217EFABC20017D719 /* MyScene.m */,
+				D21C8D1C17EFD0650017D719 /* trail.sks */,
+				D21C8D1D17EFD0650017D719 /* spark.png */,
 				D21C8CB417EFABC20017D719 /* Spaceship.png */,
 				D21C8CB617EFABC20017D719 /* Images.xcassets */,
 				D21C8CA017EFABC20017D719 /* Supporting Files */,
@@ -138,6 +158,7 @@
 		D21C8CA017EFABC20017D719 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D21C8CF417EFAD290017D719 /* Resources */,
 				D21C8CA117EFABC20017D719 /* PlaneFight-Info.plist */,
 				D21C8CA217EFABC20017D719 /* InfoPlist.strings */,
 				D21C8CA517EFABC20017D719 /* main.m */,
@@ -162,6 +183,21 @@
 				D21C8CC617EFABC20017D719 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D21C8CF417EFAD290017D719 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D21C8CF517EFAD290017D719 /* airPlanesBackground.png */,
+				D21C8CF617EFAD290017D719 /* PLANE 8 L.png */,
+				D21C8CF717EFAD290017D719 /* PLANE 8 N.png */,
+				D21C8CF817EFAD290017D719 /* PLANE 8 R.png */,
+				D21C8CF917EFAD290017D719 /* PLANE 8 SHADOW.png */,
+				D21C8CFA17EFAD290017D719 /* PLANE PROPELLER 1.png */,
+				D21C8CFB17EFAD290017D719 /* PLANE PROPELLER 2.png */,
+			);
+			name = Resources;
+			path = Code/Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +247,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "V SRI";
 				TargetAttributes = {
+					D21C8C9317EFABC20017D719 = {
+						DevelopmentTeam = XXQQUMJ3X9;
+					};
 					D21C8CBB17EFABC20017D719 = {
 						TestTargetID = D21C8C9317EFABC20017D719;
 					};
@@ -240,10 +279,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D21C8D1217EFAD290017D719 /* PLANE 8 R.png in Resources */,
+				D21C8D0F17EFAD290017D719 /* airPlanesBackground.png in Resources */,
 				D21C8CA417EFABC20017D719 /* InfoPlist.strings in Resources */,
 				D21C8CB717EFABC20017D719 /* Images.xcassets in Resources */,
+				D21C8D1017EFAD290017D719 /* PLANE 8 L.png in Resources */,
+				D21C8D1F17EFD0650017D719 /* spark.png in Resources */,
+				D21C8D1317EFAD290017D719 /* PLANE 8 SHADOW.png in Resources */,
 				D21C8CB517EFABC20017D719 /* Spaceship.png in Resources */,
+				D21C8D1117EFAD290017D719 /* PLANE 8 N.png in Resources */,
+				D21C8D1E17EFD0650017D719 /* trail.sks in Resources */,
 				D21C8CAD17EFABC20017D719 /* Main.storyboard in Resources */,
+				D21C8D1517EFAD290017D719 /* PLANE PROPELLER 2.png in Resources */,
+				D21C8D1417EFAD290017D719 /* PLANE PROPELLER 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,10 +442,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PlaneFight/PlaneFight-Prefix.pch";
 				INFOPLIST_FILE = "PlaneFight/PlaneFight-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -408,10 +459,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PlaneFight/PlaneFight-Prefix.pch";
 				INFOPLIST_FILE = "PlaneFight/PlaneFight-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
